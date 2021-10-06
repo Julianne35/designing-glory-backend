@@ -95,11 +95,10 @@ exports.createEmail = async (req, res) => {
 };
 
 // get all
-exports.getAll = async (req, res) => {
-  const data = await CreateEmail
-    .find(req.query);
-  res.json(data);
-};
+// exports.getAll = async (req, res) => {
+//   const data = await CreateEmail.find(req.query);
+//   res.json(data);
+// };
 
 //get name
 // exports.getName = async (req, res) => {
