@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const CreateEmail = mongoose.model("email");
+const CreateEmail = mongoose.model("emails");
 
 const nodemailer = require("nodemailer");
 
